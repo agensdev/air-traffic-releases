@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>Air Traffic</title>
+        <item>
+            <title>0.6.0</title>
+            <pubDate>Mon, 02 Nov 2026 10:46:19 +0000</pubDate>
+            <sparkle:version>0.6.0</sparkle:version>
+            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## What's new
+
+- **Air Traffic keeps itself up to date.** It looks for a new version once a day, and **Check for updates** in Settings → General looks right away. When an update arrives while you are busy, it waits quietly in the menu bar menu as "Update to …" instead of opening a window over your work.
+- This is the last version you install by hand. From here on, updates come to you.]]></description>
+            <enclosure url="https://github.com/agensdev/air-traffic-releases/releases/download/v0.6.0/AirTraffic-0.6.0.zip" type="application/octet-stream" sparkle:edSignature="FG5ObTv5z/qNYli8ywNM1TZRaF0HG3OAFfrQ11XkXthfEjaWLDvHjqGMMIIfJLSjcLyT4+1404ey4qKbzHBeDA==" length="3630250"/>
+        </item>
+    </channel>
+</rss>
