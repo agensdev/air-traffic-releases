@@ -3,16 +3,18 @@
     <channel>
         <title>Air Traffic</title>
         <item>
-            <title>0.6.0</title>
-            <pubDate>Mon, 02 Nov 2026 10:46:19 +0000</pubDate>
-            <sparkle:version>0.6.0</sparkle:version>
-            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+            <title>0.7.0</title>
+            <pubDate>Mon, 02 Nov 2026 11:59:55 +0000</pubDate>
+            <sparkle:version>0.7.0</sparkle:version>
+            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description sparkle:format="markdown"><![CDATA[## What's new
 
-- **Air Traffic keeps itself up to date.** It looks for a new version once a day, and **Check for updates** in Settings → General looks right away. When an update arrives while you are busy, it waits quietly in the menu bar menu as "Update to …" instead of opening a window over your work.
-- This is the last version you install by hand. From here on, updates come to you.]]></description>
-            <enclosure url="https://github.com/agensdev/air-traffic-releases/releases/download/v0.6.0/AirTraffic-0.6.0.zip" type="application/octet-stream" sparkle:edSignature="FG5ObTv5z/qNYli8ywNM1TZRaF0HG3OAFfrQ11XkXthfEjaWLDvHjqGMMIIfJLSjcLyT4+1404ey4qKbzHBeDA==" length="3630250"/>
+- **Zen is a browser you can route to.** Use `zen` in a rule, or pick it in Settings. Like Firefox, it opens in whichever profile Zen has open, because nothing can tell Zen which profile to use.
+- **When a link does not open where its rule said, Air Traffic says so.** Say a rule sends links to the Dia profile "Work", but Dia has no profile by that name. The link used to open in whatever profile was in front, and Recent still said "Dia · Work". Now Recent shows where the link actually opened. The log names the rule that decided it, says why the link missed, and lists the profiles Dia does have. The Test button in General says the same.
+- **Air Traffic tells you when it is not allowed to use Dia's profiles.** If you once clicked "Don't Allow" when macOS asked about Dia, every link meant for a Dia profile has opened in plain Dia since, without a word. Now the menu bar shows a warning, and the menu has a shortcut to the setting that fixes it. The Profiles tab shows the same under Dia's profiles.
+- **Claude can read the log.** If you use Air Traffic's MCP server, ask Claude why a link opened where it did. It can now read what happened, not only what the rules say should happen.]]></description>
+            <enclosure url="https://github.com/agensdev/air-traffic-releases/releases/download/v0.7.0/AirTraffic-0.7.0.zip" type="application/octet-stream" sparkle:edSignature="PoL+c1LaBbLbs0m9BZpDPAQHskUg5PLpRNyhHESt/44AyZ3AEBuaV08oDpoKAJHGV09UbovqDYN4y1iyK3mQAA==" length="3665612"/>
         </item>
     </channel>
 </rss>
