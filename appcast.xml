@@ -3,16 +3,16 @@
     <channel>
         <title>Air Traffic</title>
         <item>
-            <title>0.8.0</title>
-            <pubDate>Tue, 03 Nov 2026 20:55:25 +0000</pubDate>
-            <sparkle:version>0.8.0</sparkle:version>
-            <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+            <title>0.8.1</title>
+            <pubDate>Fri, 06 Nov 2026 10:06:22 +0000</pubDate>
+            <sparkle:version>0.8.1</sparkle:version>
+            <sparkle:shortVersionString>0.8.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description sparkle:format="markdown"><![CDATA[## What's new
 
-- **Dia comes to the front when a link goes to one of its profiles.** A link sent to a Dia profile used to land in that profile while Dia stayed behind the app you clicked in, often with another profile on screen. Now Dia comes forward, switches to the profile, and shows the new tab.
-- **Spotify and Apple Music links can open in their apps.** Both are new switches under "Open in app" in Settings → Rules, beside Figma, Notion, Teams and Zoom. A shared track, album, playlist, artist, episode or show then opens in the app rather than the web player.]]></description>
-            <enclosure url="https://github.com/agensdev/air-traffic-releases/releases/download/v0.8.0/AirTraffic-0.8.0.zip" type="application/octet-stream" sparkle:edSignature="te+BtHjLRrs2SPEEkQs6cwKPoHRV1xnrgjtNkXaBgSmbsVp7v1QWn0T6IZUj46ox1JfXVKPj6+DsAjGrgdkrBQ==" length="3666961"/>
+- **Air Traffic leaves the Dock after setup.** Once the first-launch setup was closed, Air Traffic stayed in the Dock and in ⌘⇥ until it was next started, and came forward there every time a link was clicked. It now goes back to the menu bar as soon as setup closes.
+- **Keyboard shortcuts no longer open the ⌥ menu.** A launcher shortcut that holds ⌥ along with ⌘ or ⌃ — a Hyper key, for instance — opened the manual override menu instead of the link, and dismissing it opened nothing. The menu now opens only for ⌥ on its own (or ⇧⌥), as on a click.]]></description>
+            <enclosure url="https://github.com/agensdev/air-traffic-releases/releases/download/v0.8.1/AirTraffic-0.8.1.zip" type="application/octet-stream" sparkle:edSignature="jR4mTX9JJ+obfZ2OHUdDR/r/AOZubnERgFceJmGvStZKrhpsjdo0q/KN00QO981ZoUN6EjZ+slkuYufMh+aYAA==" length="3667640"/>
         </item>
     </channel>
 </rss>
